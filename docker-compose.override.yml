@@ -3,6 +3,7 @@ version: '3'
 services:
   mywebsite:
     build: .
+    image: devkrolikowski/mywebsite
     ports:
       - 80:80
     volumes:
