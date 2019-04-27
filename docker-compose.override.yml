@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mywebsite:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./mywebsite:/var/www/html

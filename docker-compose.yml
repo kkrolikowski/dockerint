@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+  mywebsite:
+    image: php:7-apache
